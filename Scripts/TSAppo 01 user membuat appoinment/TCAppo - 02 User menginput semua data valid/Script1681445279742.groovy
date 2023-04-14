@@ -42,5 +42,3 @@ WebUI.click(findTestObject('Object Repository/Appoinment/button_Book Appointment
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.closeBrowser()
-

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User tidak menginput visit date</description>
+   <name>TCAppo - 03 User tidak menginput visit date</name>
+   <tag>Appoinment</tag>
+   <comment></comment>
+   <testCaseGuid>d5f2a2f4-3bf4-4689-91da-e18f3ede4fcc</testCaseGuid>
+</TestCaseEntity>

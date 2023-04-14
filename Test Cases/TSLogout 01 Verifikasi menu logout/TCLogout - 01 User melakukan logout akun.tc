@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan logout akun</description>
+   <name>TCLogout - 01 User melakukan logout akun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86b3ab3c-f018-4edd-a39f-734c17337d87</testCaseGuid>
+</TestCaseEntity>

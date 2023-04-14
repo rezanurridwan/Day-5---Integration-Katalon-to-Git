@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menekan tombol make appoinment tanpa login</description>
+   <name>TCAppo - 01 User menekan tombol make appoinment tanpa login</name>
+   <tag>Appoinment</tag>
+   <comment></comment>
+   <testCaseGuid>4a5020e1-ba34-4922-9d45-50757ec518c4</testCaseGuid>
+</TestCaseEntity>

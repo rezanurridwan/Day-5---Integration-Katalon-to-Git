@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User melihat history appoinment</description>
-   <name>TCHis - 01 User melihat history appoinment</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9d5dbca9-fb87-4e3e-9da0-df44cded0a18</testCaseGuid>
-</TestCaseEntity>

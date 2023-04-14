@@ -17,28 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TSLog 01 Verifikasi menu login/TCLog - 01 User menginput username dan password valid'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TSAppo 01 user membuat appoinment/TCAppo - 02 User menginput semua data valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Appoinment/select_Hospital'), 'Seoul CURA Healthcare Center', false)
+WebUI.click(findTestObject('Login/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Appoinment/label_Apply for hospital readmission'))
-
-WebUI.click(findTestObject('Object Repository/Appoinment/label_Medicare'))
-
-WebUI.click(findTestObject('Appoinment/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Appoinment/th_April 2023'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Appoinment/span_Nov'))
-
-WebUI.click(findTestObject('Object Repository/Appoinment/td_29'))
-
-WebUI.setText(findTestObject('Object Repository/Appoinment/textarea_Comment_comment'), 'I wanna checkup')
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Appoinment/button_Book Appointment'))
+WebUI.click(findTestObject('Toggle/a_history'))
 
 WebUI.takeFullPageScreenshot()
 

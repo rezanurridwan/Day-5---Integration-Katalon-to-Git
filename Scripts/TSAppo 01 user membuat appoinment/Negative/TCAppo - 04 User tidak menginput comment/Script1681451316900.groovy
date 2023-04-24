@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TSLog 01 Verifikasi menu login/TCLog - 01 User menginput username dan password valid'), 
+WebUI.callTestCase(findTestCase('TSLog 01 Verifikasi menu login/Positive/TCLog - 01 User menginput username dan password valid'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Appoinment/select_Hospital'), 'Seoul CURA Healthcare Center', false)
